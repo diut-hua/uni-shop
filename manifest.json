@@ -54,7 +54,21 @@
         "setting" : {
             "urlCheck" : false
         },
-        "usingComponents" : true
+        "usingComponents" : true,
+		 "requiredPrivateInfos": [
+
+         "chooseLocation",
+
+         "getLocation", 
+
+         "chooseAddress"
+
+         ],
+		
+        "unipush" : {
+            "enable" : false
+        },
+        "permission" : {}
     },
     "vueVersion" : "2"
 }
